@@ -52,6 +52,18 @@ const Education = () => {
               <GraduationCap className="w-5 h-5 text-blue-600" />
               <span className="text-gray-700 font-medium">Educational Journey</span>
             </div>
+            
+            {/* Profile Picture */}
+            <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 p-1">
+              <div className="w-full h-full rounded-full overflow-hidden">
+                <img 
+                  src="https://i.postimg.cc/659j2kKL/Vivek-jpg.png" 
+                  alt="Vivek Emmadi"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
+
             <h1 className="text-5xl md:text-6xl font-black mb-6 tracking-tight">
               <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
                 Education
