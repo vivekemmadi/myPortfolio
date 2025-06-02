@@ -4,7 +4,7 @@ import { Briefcase, Calendar, MapPin, TrendingUp, Zap } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      title: "Intern",
+      title: "App Developer Intern",
       company: "IHM Connect",
       duration: "Current Position",
       type: "Full-time Internship",
