@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Briefcase, Calendar, MapPin, TrendingUp, Zap } from 'lucide-react';
 
@@ -9,7 +8,7 @@ const Experience = () => {
       company: "IHM Connect",
       duration: "Current Position",
       type: "Full-time Internship",
-      location: "Remote",
+      location: "On-site",
       description: "Developing automation workflows and leveraging Microsoft Dataverse for efficient data management and storage solutions.",
       responsibilities: [
         "Design and implement automation workflows to streamline business processes",

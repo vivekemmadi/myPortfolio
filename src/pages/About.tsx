@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Sparkles, Target, Heart, Lightbulb } from 'lucide-react';
 
@@ -35,8 +34,12 @@ const About = () => {
             <div className="relative group">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl transform rotate-3 group-hover:rotate-6 transition-transform duration-300"></div>
               <div className="relative bg-white rounded-3xl p-8 transform -rotate-3 group-hover:rotate-0 transition-transform duration-300 shadow-2xl">
-                <div className="w-full h-80 rounded-2xl bg-gradient-to-br from-blue-100 to-purple-100 flex items-center justify-center text-gray-500 text-lg font-medium">
-                  Professional Photo
+                <div className="w-full h-80 rounded-2xl overflow-hidden">
+                  <img 
+                    src="https://i.postimg.cc/659j2kKL/Vivek-jpg.png" 
+                    alt="Vivek Emmadi"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
             </div>

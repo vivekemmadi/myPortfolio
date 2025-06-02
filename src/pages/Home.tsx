@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowDown, Github, Linkedin, Mail, Sparkles, Code, Zap } from 'lucide-react';
@@ -31,12 +30,12 @@ const Home = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
             <div className="mb-8">
-              <div className="w-52 h-52 mx-auto mb-8 rounded-full bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 p-1 animate-pulse hover:animate-none transition-all duration-300 group">
-                <div className="w-full h-full rounded-full bg-slate-800/90 backdrop-blur-sm flex items-center justify-center text-white/80 border border-white/20 overflow-hidden relative">
+              <div className="w-52 h-52 mx-auto mb-8 rounded-full bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 p-1 shadow-2xl">
+                <div className="w-full h-full rounded-full bg-slate-800/90 backdrop-blur-sm border border-white/20 overflow-hidden relative">
                   <img 
                     src="https://i.postimg.cc/659j2kKL/Vivek-jpg.png" 
                     alt="Vivek Emmadi"
-                    className="w-full h-full object-cover rounded-full group-hover:scale-110 transition-transform duration-300"
+                    className="w-full h-full object-cover rounded-full"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-900/20 to-transparent rounded-full"></div>
                 </div>
