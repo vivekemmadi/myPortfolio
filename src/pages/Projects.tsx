@@ -24,7 +24,8 @@ const Projects = () => {
         "Retail Analytics"
       ],
       status: "Completed",
-      category: "AI/ML"
+      category: "AI/ML",
+      githubUrl: "https://github.com/vivekemmadi/ObjectDetection"
     },
     {
       title: "Multi-Disease Predictor Using Deep Learning",
@@ -50,9 +51,14 @@ const Projects = () => {
         backend: "Deployed on Onrender"
       },
       status: "Completed",
-      category: "AI/ML"
+      category: "AI/ML",
+      githubUrl: "https://github.com/vivekemmadi/multiple-disease-prediction"
     }
   ];
+
+  const handleViewCode = (githubUrl: string) => {
+    window.open(githubUrl, '_blank');
+  };
 
   return (
     <div className="min-h-screen bg-gray-50 py-20 px-4 sm:px-6 lg:px-8">
@@ -90,7 +96,10 @@ const Projects = () => {
                     <p className="text-lg text-blue-100">{project.description}</p>
                   </div>
                   <div className="mt-6 md:mt-0 md:ml-8">
-                    <button className="flex items-center space-x-2 bg-white/20 hover:bg-white/30 rounded-lg px-4 py-2 transition-colors duration-200">
+                    <button 
+                      onClick={() => handleViewCode(project.githubUrl)}
+                      className="flex items-center space-x-2 bg-white/20 hover:bg-white/30 rounded-lg px-4 py-2 transition-colors duration-200"
+                    >
                       <Github className="w-5 h-5" />
                       <span>View Code</span>
                     </button>
